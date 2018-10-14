@@ -1,0 +1,2300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PointOfSaleClient Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/PointOfSaleClient" class="dashAnchor"></a>
+    <a title="PointOfSaleClient Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Bloombox Docs</a> (49% documented)</p>
+        <p class="header-right"><a href="https://github.com/bloombox/swift"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Bloombox Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        PointOfSaleClient Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Bloombox.html">Bloombox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Bloombox/Settings.html">– Settings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DevicesClient.html">DevicesClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MenuClient.html">MenuClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlatformClient.html">PlatformClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PointOfSaleClient.html">PointOfSaleClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Services.html">Services</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShopClient.html">ShopClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TelemetryClient.html">TelemetryClient</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:8Bloombox20__BLOOMBOX_VARIANT__SSvp">__BLOOMBOX_VARIANT__</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:8Bloombox20__BLOOMBOX_VERSION__SSvp">__BLOOMBOX_VERSION__</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CommercialEvent.html">CommercialEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DevicesClientError.html">DevicesClientError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventCollection.html">EventCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GenericEventError.html">GenericEventError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/IdentityEvent.html">IdentityEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MenuClientError.html">MenuClientError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/POSClientError.html">POSClientError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PlatformClientError.html">PlatformClientError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ShopClientError.html">ShopClientError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/EventContextProto.html">EventContextProto</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/EventContextData.html">EventContextData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IPOSAuthorizeUser.html">IPOSAuthorizeUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RPCService.html">RPCService</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/EventContext.html">EventContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/POSAuthorizeOptions.html">POSAuthorizeOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/POSAuthorizeOptions/MessagingOptions.html">– MessagingOptions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9APIClienta">APIClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19AnalyticsCollectiona">AnalyticsCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16AnalyticsContexta">AnalyticsContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14AnalyticsScopea">AnalyticsScope</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10Apothecarya">Apothecary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14ApothecaryTypea">ApothecaryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18ApplicationContexta">ApplicationContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9AuthTokena">AuthToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12BOGODiscounta">BOGODiscount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13BillOfChargesa">BillOfCharges</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Branda">Brand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10BrandAsseta">BrandAsset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13BrandCallbacka">BrandCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9BrandInfoa">BrandInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13BrandInfoCalla">BrandInfoCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11Cannabinoida">Cannabinoid</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16CannabinoidRatioa">CannabinoidRatio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12Cannabinoidsa">Cannabinoids</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9Cartridgea">Cartridge</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13CartridgeTypea">CartridgeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19CashRegisterSessiona">CashRegisterSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12CheckZipcodea">CheckZipcode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16CheckZipcodeCalla">CheckZipcodeCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20CheckZipcodeCallbacka">CheckZipcodeCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Colora">Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11ColorSchemea">ColorScheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11Compressiona">Compression</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12Contaminantsa">Contaminants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Contenta">Content</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13CurrencyValuea">CurrencyValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18DeviceActivateCalla">DeviceActivateCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox22DeviceActivateCallbacka">DeviceActivateCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16DeviceActivationa">DeviceActivation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17DeviceApplicationa">DeviceApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11DeviceErrora">DeviceError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17DeviceFingerprinta">DeviceFingerprint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15DevicePublicKeya">DevicePublicKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12DeviceSeriala">DeviceSerial</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10DeviceUUIDa">DeviceUUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11DevicesPinga">DevicesPing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15DevicesPingCalla">DevicesPingCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14DevicesServicea">DevicesService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19DistributionChannela">DistributionChannel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox23DistributionChannelTypea">DistributionChannelType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18DistributionPolicya">DistributionPolicy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10DomainInfoa">DomainInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14DomainInfoCalla">DomainInfoCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18DomainInfoCallbacka">DomainInfoCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox6Ediblea">Edible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10EdibleTypea">EdibleType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Emptya">Empty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12EnrollMembera">EnrollMember</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16EnrollMemberCalla">EnrollMemberCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20EnrollMemberCallbacka">EnrollMemberCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15EnrollmentErrora">EnrollmentError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Eventa">Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14EventTelemetrya">EventTelemetry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9EventTypea">EventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Extracta">Extract</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11ExtractTypea">ExtractType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Feelinga">Feeling</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12FiatCurrencya">FiatCurrency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox6Flowera">Flower</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12GenericEventa">GenericEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20GenericEventCallbacka">GenericEventCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8Geneticsa">Genetics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7GetMenua">GetMenu</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11GetMenuCalla">GetMenuCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8GetOrdera">GetOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12GetOrderCalla">GetOrderCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16GetOrderCallbacka">GetOrderCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7GroupIDa">GroupID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox4Growa">Grow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox4Hasha">Hash</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11Healthchecka">Healthcheck</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15HealthcheckCalla">HealthcheckCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19HealthcheckCallbacka">HealthcheckCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13IdentityTokena">IdentityToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19IdentityTokenIssuera">IdentityTokenIssuer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15InventoryAmounta">InventoryAmount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16InventoryBindinga">InventoryBinding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20InventoryCoordinatesa">InventoryCoordinates</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12InventoryKeya">InventoryKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17InventoryLocationa">InventoryLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20InventoryLocationKeya">InventoryLocationKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox21InventoryLocationTypea">InventoryLocationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16InventoryProducta">InventoryProduct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14InventoryStatea">InventoryState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20InventoryStreamEventa">InventoryStreamEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox6ItemIDa">ItemID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11KeyMateriala">KeyMaterial</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13KeyParametersa">KeyParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12KeyingSchemea">KeyingScheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Keypaira">Keypair</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8Languagea">Language</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14LibraryContexta">LibraryContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11LocationKeya">LocationKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15LoyaltyDiscounta">LoyaltyDiscount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13MaterialsDataa">MaterialsData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9MediaItema">MediaItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8MediaKeya">MediaKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16MediaOrientationa">MediaOrientation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12MediaPrivacya">MediaPrivacy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14MediaReferencea">MediaReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11MediaStatusa">MediaStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12MediaSubjecta">MediaSubject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9MediaTypea">MediaType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11MediaUploada">MediaUpload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox4Menua">Menu</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11MenuProducta">MenuProduct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20MenuRetrieveCallbacka">MenuRetrieveCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11MenuSectiona">MenuSection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11MenuServicea">MenuService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12MenuSettingsa">MenuSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11Merchandisea">Merchandise</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15MerchandiseTypea">MerchandiseType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13MessagingAutha">MessagingAuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox6Metalsa">Metals</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8Moisturea">Moisture</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10MoldMildewa">MoldMildew</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox4Namea">Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19NativeDeviceContexta">NativeDeviceContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11OpenSessiona">OpenSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15OpenSessionCalla">OpenSessionCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19OpenSessionCallbacka">OpenSessionCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Ordera">Order</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7OrderIDa">OrderID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8OrderKeya">OrderKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17OtherContaminantsa">OtherContaminants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12POSAuthorizea">POSAuthorize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16POSAuthorizeCalla">POSAuthorizeCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20POSAuthorizeCallbacka">POSAuthorizeCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14POSClaimTicketa">POSClaimTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18POSClaimTicketCalla">POSClaimTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14POSCloneTicketa">POSCloneTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18POSCloneTicketCalla">POSCloneTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15POSDeviceStatusa">POSDeviceStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8POSErrora">POSError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17POSFinalizeTicketa">POSFinalizeTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox21POSFinalizeTicketCalla">POSFinalizeTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11POSHardwarea">POSHardware</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17POSInventoryQuerya">POSInventoryQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox21POSInventoryQueryCalla">POSInventoryQueryCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18POSInventoryStreama">POSInventoryStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox22POSInventoryStreamCalla">POSInventoryStreamCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox25POSInventoryStreamSessiona">POSInventoryStreamSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13POSLoadTicketa">POSLoadTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17POSLoadTicketCalla">POSLoadTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15POSMemberSearcha">POSMemberSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19POSMemberSearchCalla">POSMemberSearchCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13POSOpenTicketa">POSOpenTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17POSOpenTicketCalla">POSOpenTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13POSSaveTicketa">POSSaveTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17POSSaveTicketCalla">POSSaveTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12POSSessionIDa">POSSessionID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox26POSVerifyTicketKeyCallbacka">POSVerifyTicketKeyCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13POSVoidTicketa">POSVoidTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17POSVoidTicketCalla">POSVoidTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10PartnerKeya">PartnerKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18PartnerLocationKeya">PartnerLocationKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18PercentageDiscounta">PercentageDiscount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10Pesticidesa">Pesticides</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12PingCallbacka">PingCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Planta">Plant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9PlantTypea">PlantType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13PlatformErrora">PlatformError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12PlatformPinga">PlatformPing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16PlatformPingCalla">PlatformPingCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20PlatformPingCallbacka">PlatformPingCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15PlatformServicea">PlatformService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox21PlatformServiceStatusa">PlatformServiceStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18PointOfSaleServicea">PointOfSaleService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16PointOfSaleStatea">PointOfSaleState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15PotencyEstimatea">PotencyEstimate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Prerolla">Preroll</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Pricinga">Pricing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox23PricingTierAvailabilitya">PricingTierAvailability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11PricingTypea">PricingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17PricingWeightTiera">PricingWeightTier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14ProductContenta">ProductContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10ProductKeya">ProductKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11ProductKinda">ProductKind</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14ProductPricinga">ProductPricing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16ProductReferencea">ProductReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17ProductTimestampsa">ProductTimestamps</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14ProductVarianta">ProductVariant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14ProtobufStructa">ProtobufStruct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13ProtobufValuea">ProtobufValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16PurchaseCustomera">PurchaseCustomer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19PurchaseFacilitatora">PurchaseFacilitator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11PurchaseKeya">PurchaseKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14PurchaseStatusa">PurchaseStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14PurchaseTicketa">PurchaseTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18PurchaseTimestampsa">PurchaseTimestamps</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20RegisterSessionTokena">RegisterSessionToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15ResolveCallbacka">ResolveCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14ResolveDomainsa">ResolveDomains</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18ResolveDomainsCalla">ResolveDomainsCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14SaleDescriptora">SaleDescriptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8SaleTypea">SaleType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11SectionDataa">SectionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11SectionSpeca">SectionSpec</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13SectionedMenua">SectionedMenu</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13SessionStatusa">SessionStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12SessionTokena">SessionToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17SessionTokenGranta">SessionTokenGrant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Shelfa">Shelf</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8ShopInfoa">ShopInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12ShopInfoCalla">ShopInfoCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16ShopInfoCallbacka">ShopInfoCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8ShopPinga">ShopPing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12ShopPingCalla">ShopPingCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11ShopServicea">ShopService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Speciesa">Species</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9StaffUsera">StaffUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10StaticMenua">StaticMenu</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10Subjectivea">Subjective</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11SubmitOrdera">SubmitOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15SubmitOrderCalla">SubmitOrderCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19SubmitOrderCallbacka">SubmitOrderCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9TasteNotea">TasteNote</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14TelemetryEventa">TelemetryEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19TelemetryEventBatcha">TelemetryEventBatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox26TelemetryEventBatchRequesta">TelemetryEventBatchRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18TelemetryEventCalla">TelemetryEventCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18TelemetryExceptiona">TelemetryException</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13TelemetryPinga">TelemetryPing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17TelemetryPingCalla">TelemetryPingCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17TelemetryResponsea">TelemetryResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15TemporalInstanta">TemporalInstant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Terpenea">Terpene</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8Terpenesa">Terpenes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15TestCoordinatesa">TestCoordinates</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13TestErrorTypea">TestErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9TestMediaa">TestMedia</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13TestMediaTypea">TestMediaType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10TestMethoda">TestMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11TestResultsa">TestResults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9TestSuitea">TestSuite</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9TestValuea">TestValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13TestValueTypea">TestValueType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11UnitPricinga">UnitPricing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox4Usera">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox6UserIDa">UserID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7UserKeya">UserKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11VariantSpeca">VariantSpec</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11VerifyErrora">VerifyError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12VerifyMembera">VerifyMember</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16VerifyMemberCalla">VerifyMemberCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20VerifyMemberCallbacka">VerifyMemberCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11VersionSpeca">VersionSpec</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15WeightedPricinga">WeightedPricing</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>PointOfSaleClient</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">PointOfSaleClient</span> <span class="p">:</span> <span class="kt">RemoteService</span></code></pre>
+
+                </div>
+              </div>
+            <p>Provides functionality for the Point-of-Sale API, which supports physical in-person transactions between a licensed
+cannabis retailer and qualified cannabis consumer.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Internals"></a>
+                <a name="//apple_ref/swift/Section/Internals" class="dashAnchor"></a>
+                <a href="#/Internals">
+                  <h3 class="section-name">Internals</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC11openSessionAA0a33_Schema_Services_Pos_V1beta1_OpenG0V8ResponseVSS_SS12forAuthTokenAA0a1_h9_Partner_Q9DeviceKeyV02onR0AA022Opencannabis_Commerce_bcD5StateV0gL0VSg04withlW0tKF"></a>
+                    <a name="//apple_ref/swift/Method/openSession(_:forAuthToken:onDevice:withOpenState:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC11openSessionAA0a33_Schema_Services_Pos_V1beta1_OpenG0V8ResponseVSS_SS12forAuthTokenAA0a1_h9_Partner_Q9DeviceKeyV02onR0AA022Opencannabis_Commerce_bcD5StateV0gL0VSg04withlW0tKF">openSession(_:forAuthToken:onDevice:withOpenState:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">openSession</span><span class="p">(</span><span class="n">_</span> <span class="nv">sessionID</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12POSSessionIDa">POSSessionID</a></span><span class="p">,</span>
+                        <span class="n">forAuthToken</span> <span class="nv">authToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                        <span class="n">onDevice</span> <span class="nv">deviceKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                        <span class="n">withOpenState</span> <span class="nv">openState</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PointOfSaleStatea">PointOfSaleState</a></span><span class="o">.</span><span class="kt">SessionOpen</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11OpenSessiona">OpenSession</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC11openSessionAA0a29_Schema_Services_Pos_V1beta1_bcdG8OpenCall_pSS_SS12forAuthTokenAA0a1_h9_Partner_Q9DeviceKeyV02onR0AA022Opencannabis_Commerce_bcD5StateV0gL0VSg04withlW0y9SwiftGRPC0M6ResultV_AA0a1_h1_i1_j1_k1_lG0V8ResponseVSgtctKF"></a>
+                    <a name="//apple_ref/swift/Method/openSession(_:forAuthToken:onDevice:withOpenState:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC11openSessionAA0a29_Schema_Services_Pos_V1beta1_bcdG8OpenCall_pSS_SS12forAuthTokenAA0a1_h9_Partner_Q9DeviceKeyV02onR0AA022Opencannabis_Commerce_bcD5StateV0gL0VSg04withlW0y9SwiftGRPC0M6ResultV_AA0a1_h1_i1_j1_k1_lG0V8ResponseVSgtctKF">openSession(_:forAuthToken:onDevice:withOpenState:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">openSession</span><span class="p">(</span><span class="n">_</span> <span class="nv">sessionID</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                        <span class="n">forAuthToken</span> <span class="nv">authToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                        <span class="n">onDevice</span> <span class="nv">deviceKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                        <span class="n">withOpenState</span> <span class="nv">openState</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PointOfSaleStatea">PointOfSaleState</a></span><span class="o">.</span><span class="kt">SessionOpen</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox19OpenSessionCallbacka">OpenSessionCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox15OpenSessionCalla">OpenSessionCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC11openSessionAA0a33_Schema_Services_Pos_V1beta1_OpenG0V8ResponseVAA0a1_h9_Partner_N9DeviceKeyV02onO0_AA022Opencannabis_Commerce_bcD5StateV0gL0VSg04withlT0tKF"></a>
+                    <a name="//apple_ref/swift/Method/openSession(onDevice:withOpenState:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC11openSessionAA0a33_Schema_Services_Pos_V1beta1_OpenG0V8ResponseVAA0a1_h9_Partner_N9DeviceKeyV02onO0_AA022Opencannabis_Commerce_bcD5StateV0gL0VSg04withlT0tKF">openSession(onDevice:withOpenState:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">openSession</span><span class="p">(</span><span class="n">onDevice</span> <span class="nv">deviceKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                        <span class="n">withOpenState</span> <span class="nv">openState</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PointOfSaleStatea">PointOfSaleState</a></span><span class="o">.</span><span class="kt">SessionOpen</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11OpenSessiona">OpenSession</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Internals2"></a>
+                <a name="//apple_ref/swift/Section/Internals" class="dashAnchor"></a>
+                <a href="#/Internals2">
+                  <h3 class="section-name">Internals</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC11openSessionXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/openSession(_:forAuthToken:onDevice:withOpenState:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC11openSessionXeXeF">openSession(_:forAuthToken:onDevice:withOpenState:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">openSession</span><span class="p">(</span><span class="n">_</span> <span class="nv">sessionID</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12POSSessionIDa">POSSessionID</a></span><span class="p">,</span>
+                        <span class="n">forAuthToken</span> <span class="nv">authToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                        <span class="n">onDevice</span> <span class="nv">deviceKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                        <span class="n">withOpenState</span> <span class="nv">openState</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PointOfSaleStatea">PointOfSaleState</a></span><span class="o">.</span><span class="kt">SessionOpen</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11OpenSessiona">OpenSession</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC11openSessionXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/openSession(_:forAuthToken:onDevice:withOpenState:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC11openSessionXeXeF">openSession(_:forAuthToken:onDevice:withOpenState:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">openSession</span><span class="p">(</span><span class="n">_</span> <span class="nv">sessionID</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                        <span class="n">forAuthToken</span> <span class="nv">authToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                        <span class="n">onDevice</span> <span class="nv">deviceKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                        <span class="n">withOpenState</span> <span class="nv">openState</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PointOfSaleStatea">PointOfSaleState</a></span><span class="o">.</span><span class="kt">SessionOpen</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox19OpenSessionCallbacka">OpenSessionCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox15OpenSessionCalla">OpenSessionCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC11openSessionXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/openSession(onDevice:withOpenState:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC11openSessionXeXeF">openSession(onDevice:withOpenState:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">openSession</span><span class="p">(</span><span class="n">onDevice</span> <span class="nv">deviceKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                        <span class="n">withOpenState</span> <span class="nv">openState</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PointOfSaleStatea">PointOfSaleState</a></span><span class="o">.</span><span class="kt">SessionOpen</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11OpenSessiona">OpenSession</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Public%20API"></a>
+                <a name="//apple_ref/swift/Section/Public API" class="dashAnchor"></a>
+                <a href="#/Public%20API">
+                  <h3 class="section-name">Public API</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC9authorizeAA0A42_Schema_Services_Pos_V1beta1_AuthorizeUserV8ResponseVAA0a1_G23_Security_IdentityTokenV04userP0_AA0a1_g9_Partner_R9DeviceKeyV03forS0AA19POSAuthorizeOptionsV04withW0tKF"></a>
+                    <a name="//apple_ref/swift/Method/authorize(userToken:forDevice:withOptions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC9authorizeAA0A42_Schema_Services_Pos_V1beta1_AuthorizeUserV8ResponseVAA0a1_G23_Security_IdentityTokenV04userP0_AA0a1_g9_Partner_R9DeviceKeyV03forS0AA19POSAuthorizeOptionsV04withW0tKF">authorize(userToken:forDevice:withOptions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Authorize a user account for a staff member to make use of point-of-sale hardware, using an identity token
+provided via user auth, for an account that has never been used on POS before or has lost their passcode. Initial
+account authorization (via this method) is supported for email/password and business-social-based authentication.</p>
+<div class="aside aside-attention">
+    <p class="aside-title">Attention</p>
+    <p>Device activation is required before most operations. Authorization tokens for menu downloads, shop
+operations, and others, are provided by the device activation process.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p>Asynchronous variants of <code>authorize(userToken:)</code>.</p>
+
+</div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>Client-side and server-side errors are both thrown.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">authorize</span><span class="p">(</span><span class="n">userToken</span> <span class="nv">token</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox13IdentityTokena">IdentityToken</a></span><span class="p">,</span>
+                      <span class="n">forDevice</span> <span class="nv">device</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                      <span class="n">withOptions</span> <span class="nv">options</span><span class="p">:</span> <span class="kt"><a href="../Structs/POSAuthorizeOptions.html">POSAuthorizeOptions</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12POSAuthorizea">POSAuthorize</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>token</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User identity token to authorize.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device key for the POS device requesting authorization.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Options to apply to the request.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Authorization response. This method is synchronous.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC9authorizeAA0A42_Schema_Services_Pos_V1beta1_AuthorizeUserV8ResponseVAA45Opencannabis_Crypto_Primitives_Integrity_HashV04withL9Challenge_AA0a1_g9_Partner_U9DeviceKeyV03forV0AA19POSAuthorizeOptionsV0sZ0tKF"></a>
+                    <a name="//apple_ref/swift/Method/authorize(withUserChallenge:forDevice:withOptions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC9authorizeAA0A42_Schema_Services_Pos_V1beta1_AuthorizeUserV8ResponseVAA45Opencannabis_Crypto_Primitives_Integrity_HashV04withL9Challenge_AA0a1_g9_Partner_U9DeviceKeyV03forV0AA19POSAuthorizeOptionsV0sZ0tKF">authorize(withUserChallenge:forDevice:withOptions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Authorize a user account for a staff member to make use of point-of-sale hardware, using their response to an auth
+challenge (usually a passcode). The challenge value, which is known by the point-of-sale device and server-side
+system ahead of time, is combined with the user&rsquo;s passcode response, hashed, signed, and provided as the <q>auth
+challenge response,</q> which is validated server-side like a password would be.</p>
+<div class="aside aside-attention">
+    <p class="aside-title">Attention</p>
+    <p>Device activation is required before most operations. Authorization tokens for menu downloads, shop
+operations, and others, are provided by the device activation process.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p>Asynchronous variants of <code>authorize(withUserChallenge:)</code>.</p>
+
+</div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>Client-side and server-side errors are both thrown.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">authorize</span><span class="p">(</span><span class="n">withUserChallenge</span> <span class="nv">challenge</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox4Hasha">Hash</a></span><span class="p">,</span>
+                      <span class="n">forDevice</span> <span class="nv">device</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                      <span class="n">withOptions</span> <span class="nv">options</span><span class="p">:</span> <span class="kt"><a href="../Structs/POSAuthorizeOptions.html">POSAuthorizeOptions</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12POSAuthorizea">POSAuthorize</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>challenge</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Challenge and response, as a signed digest payload.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device key for the POS device requesting authorization.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Options to apply to the request.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Authorization response. This method is synchronous.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC9authorizeAA0a29_Schema_Services_Pos_V1beta1_bcD13AuthorizeCall_pAA0a1_G23_Security_IdentityTokenV04userO0_AA0a1_g9_Partner_Q9DeviceKeyV03forR0AA19POSAuthorizeOptionsV04withV0y9SwiftGRPC0L6ResultV_AA0a1_g1_h1_i1_j1_K4UserV8ResponseVSgtctKF"></a>
+                    <a name="//apple_ref/swift/Method/authorize(userToken:forDevice:withOptions:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC9authorizeAA0a29_Schema_Services_Pos_V1beta1_bcD13AuthorizeCall_pAA0a1_G23_Security_IdentityTokenV04userO0_AA0a1_g9_Partner_Q9DeviceKeyV03forR0AA19POSAuthorizeOptionsV04withV0y9SwiftGRPC0L6ResultV_AA0a1_g1_h1_i1_j1_K4UserV8ResponseVSgtctKF">authorize(userToken:forDevice:withOptions:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Authorize a user account for a staff member to make use of point-of-sale hardware, using an identity token
+provided via user auth, for an account that has never been used on POS before or has lost their passcode. Initial
+account authorization (via this method) is supported for email/password and business-social-based authentication.</p>
+
+<p>This method variant is asynchronous and accepts a callback to continue execution.</p>
+<div class="aside aside-attention">
+    <p class="aside-title">Attention</p>
+    <p>Device activation is required before most operations. Authorization tokens for menu downloads, shop
+operations, and others, are provided by the device activation process.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p>Synchronous variants of <code>authorize(userToken:)</code>.</p>
+
+</div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>Client-side errors are thrown before the request is sent.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">authorize</span><span class="p">(</span><span class="n">userToken</span> <span class="nv">token</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox13IdentityTokena">IdentityToken</a></span><span class="p">,</span>
+                      <span class="n">forDevice</span> <span class="nv">device</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                      <span class="n">withOptions</span> <span class="nv">options</span><span class="p">:</span> <span class="kt"><a href="../Structs/POSAuthorizeOptions.html">POSAuthorizeOptions</a></span><span class="p">,</span>
+                      <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox20POSAuthorizeCallbacka">POSAuthorizeCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16POSAuthorizeCalla">POSAuthorizeCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>token</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User identity token to authorize.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device key for the POS device requesting authorization.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Options to apply to the request.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Callable to dispatch once either a terminal error or response are available.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>RPC call object, which can be used to observe state or cancel the call.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC9authorizeAA0a29_Schema_Services_Pos_V1beta1_bcD13AuthorizeCall_pAA45Opencannabis_Crypto_Primitives_Integrity_HashV17withUserChallenge_AA0a1_g9_Partner_U9DeviceKeyV03forV0AA19POSAuthorizeOptionsV0rZ0y9SwiftGRPC0L6ResultV_AA0a1_g1_h1_i1_j1_kS0V8ResponseVSgtctKF"></a>
+                    <a name="//apple_ref/swift/Method/authorize(withUserChallenge:forDevice:withOptions:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC9authorizeAA0a29_Schema_Services_Pos_V1beta1_bcD13AuthorizeCall_pAA45Opencannabis_Crypto_Primitives_Integrity_HashV17withUserChallenge_AA0a1_g9_Partner_U9DeviceKeyV03forV0AA19POSAuthorizeOptionsV0rZ0y9SwiftGRPC0L6ResultV_AA0a1_g1_h1_i1_j1_kS0V8ResponseVSgtctKF">authorize(withUserChallenge:forDevice:withOptions:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Authorize a user account for a staff member to make use of point-of-sale hardware, using their response to an auth
+challenge (usually a passcode). The challenge value, which is known by the point-of-sale device and server-side
+system ahead of time, is combined with the user&rsquo;s passcode response, hashed, signed, and provided as the <q>auth
+challenge response,</q> which is validated server-side like a password would be.</p>
+
+<p>This method variant is asynchronous and accepts a callback to continue execution.</p>
+<div class="aside aside-attention">
+    <p class="aside-title">Attention</p>
+    <p>Device activation is required before most operations. Authorization tokens for menu downloads, shop
+operations, and others, are provided by the device activation process.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p>Synchronous variants of <code>authorize(withUserChallenge:)</code>.</p>
+
+</div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>Client-side errors are thrown before the request is sent.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">authorize</span><span class="p">(</span><span class="n">withUserChallenge</span> <span class="nv">challenge</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox4Hasha">Hash</a></span><span class="p">,</span>
+                      <span class="n">forDevice</span> <span class="nv">device</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                      <span class="n">withOptions</span> <span class="nv">options</span><span class="p">:</span> <span class="kt"><a href="../Structs/POSAuthorizeOptions.html">POSAuthorizeOptions</a></span><span class="p">,</span>
+                      <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox20POSAuthorizeCallbacka">POSAuthorizeCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16POSAuthorizeCalla">POSAuthorizeCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>challenge</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Challenge and response, as a signed digest payload.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device key for the POS device requesting authorization.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Options to apply to the request.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>RPC call object, which can be used to observe state or cancel the call.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Public%20API2"></a>
+                <a name="//apple_ref/swift/Section/Public API" class="dashAnchor"></a>
+                <a href="#/Public%20API2">
+                  <h3 class="section-name">Public API</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC6verifyAA0A39_Schema_Services_Pos_V1beta1_OpenTicketV8ResponseVAA33Opencannabis_Commerce_PurchaseKeyV06ticketQ0_AA0a1_g9_Partner_s6DeviceQ0V03forT0tKF"></a>
+                    <a name="//apple_ref/swift/Method/verify(ticketKey:forDevice:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC6verifyAA0A39_Schema_Services_Pos_V1beta1_OpenTicketV8ResponseVAA33Opencannabis_Commerce_PurchaseKeyV06ticketQ0_AA0a1_g9_Partner_s6DeviceQ0V03forT0tKF">verify(ticketKey:forDevice:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify a candidate string to be a ticket key, synchronously, with server-side systems. Since ticket key UUIDs are
+generate client-side, they must be validated with the server when possible for uniqueness.</p>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p>Asynchronous version: <code>verify(ticketKey:forDevice:withOptions:_ callback)</code>.</p>
+
+</div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>Client-side errors and server-side errors are both thrown.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">verify</span><span class="p">(</span><span class="n">ticketKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PurchaseKeya">PurchaseKey</a></span><span class="p">,</span>
+                   <span class="n">forDevice</span> <span class="nv">device</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox13POSOpenTicketa">POSOpenTicket</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Ticket key to validate with the server. It should not yet exist.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device key referencing the POS device from which we are validating this key.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Ticket verificaton response.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC6verifyAA0a29_Schema_Services_Pos_V1beta1_bcD14TicketOpenCall_pAA33Opencannabis_Commerce_PurchaseKeyV06ticketQ0_AA0a1_g9_Partner_s6DeviceQ0V03forT0y9SwiftGRPC0M6ResultV_AA0a1_g1_h1_i1_j1_lK0V8ResponseVSgtctKF"></a>
+                    <a name="//apple_ref/swift/Method/verify(ticketKey:forDevice:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC6verifyAA0a29_Schema_Services_Pos_V1beta1_bcD14TicketOpenCall_pAA33Opencannabis_Commerce_PurchaseKeyV06ticketQ0_AA0a1_g9_Partner_s6DeviceQ0V03forT0y9SwiftGRPC0M6ResultV_AA0a1_g1_h1_i1_j1_lK0V8ResponseVSgtctKF">verify(ticketKey:forDevice:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify a candidate string to be a ticket key, asynchronously, with server-side systems. Since ticket key UUIDs are
+generate client-side, they must be validated with the server when possible for uniqueness.</p>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p>Synchronous version: <code>verify(ticketKey:forDevice:withOptions)</code>.</p>
+
+</div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>Client-side errors only. This method is asynchronous.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">verify</span><span class="p">(</span><span class="n">ticketKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PurchaseKeya">PurchaseKey</a></span><span class="p">,</span>
+                   <span class="n">forDevice</span> <span class="nv">device</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                   <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox26POSVerifyTicketKeyCallbacka">POSVerifyTicketKeyCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox17POSOpenTicketCalla">POSOpenTicketCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Ticket key to validate with the server. It should not yet exist.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device key referencing the POS device from which we are validating this key.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Callable to dispatch once either a terminal error or response are available.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>RPC call object, that can be used to observe status or cancel the call.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Public%20API3"></a>
+                <a name="//apple_ref/swift/Section/Public API" class="dashAnchor"></a>
+                <a href="#/Public%20API3">
+                  <h3 class="section-name">Public API</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC9authorizeXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/authorize(userToken:forDevice:withOptions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC9authorizeXeXeF">authorize(userToken:forDevice:withOptions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Authorize a user account for a staff member to make use of point-of-sale hardware, using an identity token
+provided via user auth, for an account that has never been used on POS before or has lost their passcode. Initial
+account authorization (via this method) is supported for email/password and business-social-based authentication.</p>
+<div class="aside aside-attention">
+    <p class="aside-title">Attention</p>
+    <p>Device activation is required before most operations. Authorization tokens for menu downloads, shop
+operations, and others, are provided by the device activation process.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p>Asynchronous variants of <code>authorize(userToken:)</code>.</p>
+
+</div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>Client-side and server-side errors are both thrown.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">authorize</span><span class="p">(</span><span class="n">userToken</span> <span class="nv">token</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox13IdentityTokena">IdentityToken</a></span><span class="p">,</span>
+                      <span class="n">forDevice</span> <span class="nv">device</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                      <span class="n">withOptions</span> <span class="nv">options</span><span class="p">:</span> <span class="kt"><a href="../Structs/POSAuthorizeOptions.html">POSAuthorizeOptions</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12POSAuthorizea">POSAuthorize</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>token</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User identity token to authorize.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device key for the POS device requesting authorization.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Options to apply to the request.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Authorization response. This method is synchronous.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC9authorizeXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/authorize(withUserChallenge:forDevice:withOptions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC9authorizeXeXeF">authorize(withUserChallenge:forDevice:withOptions:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Authorize a user account for a staff member to make use of point-of-sale hardware, using their response to an auth
+challenge (usually a passcode). The challenge value, which is known by the point-of-sale device and server-side
+system ahead of time, is combined with the user&rsquo;s passcode response, hashed, signed, and provided as the <q>auth
+challenge response,</q> which is validated server-side like a password would be.</p>
+<div class="aside aside-attention">
+    <p class="aside-title">Attention</p>
+    <p>Device activation is required before most operations. Authorization tokens for menu downloads, shop
+operations, and others, are provided by the device activation process.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p>Asynchronous variants of <code>authorize(withUserChallenge:)</code>.</p>
+
+</div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>Client-side and server-side errors are both thrown.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">authorize</span><span class="p">(</span><span class="n">withUserChallenge</span> <span class="nv">challenge</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox4Hasha">Hash</a></span><span class="p">,</span>
+                      <span class="n">forDevice</span> <span class="nv">device</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                      <span class="n">withOptions</span> <span class="nv">options</span><span class="p">:</span> <span class="kt"><a href="../Structs/POSAuthorizeOptions.html">POSAuthorizeOptions</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12POSAuthorizea">POSAuthorize</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>challenge</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Challenge and response, as a signed digest payload.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device key for the POS device requesting authorization.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Options to apply to the request.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Authorization response. This method is synchronous.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC9authorizeXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/authorize(userToken:forDevice:withOptions:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC9authorizeXeXeF">authorize(userToken:forDevice:withOptions:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Authorize a user account for a staff member to make use of point-of-sale hardware, using an identity token
+provided via user auth, for an account that has never been used on POS before or has lost their passcode. Initial
+account authorization (via this method) is supported for email/password and business-social-based authentication.</p>
+
+<p>This method variant is asynchronous and accepts a callback to continue execution.</p>
+<div class="aside aside-attention">
+    <p class="aside-title">Attention</p>
+    <p>Device activation is required before most operations. Authorization tokens for menu downloads, shop
+operations, and others, are provided by the device activation process.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p>Synchronous variants of <code>authorize(userToken:)</code>.</p>
+
+</div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>Client-side errors are thrown before the request is sent.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">authorize</span><span class="p">(</span><span class="n">userToken</span> <span class="nv">token</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox13IdentityTokena">IdentityToken</a></span><span class="p">,</span>
+                      <span class="n">forDevice</span> <span class="nv">device</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                      <span class="n">withOptions</span> <span class="nv">options</span><span class="p">:</span> <span class="kt"><a href="../Structs/POSAuthorizeOptions.html">POSAuthorizeOptions</a></span><span class="p">,</span>
+                      <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox20POSAuthorizeCallbacka">POSAuthorizeCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16POSAuthorizeCalla">POSAuthorizeCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>token</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User identity token to authorize.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device key for the POS device requesting authorization.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Options to apply to the request.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Callable to dispatch once either a terminal error or response are available.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>RPC call object, which can be used to observe state or cancel the call.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC9authorizeXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/authorize(withUserChallenge:forDevice:withOptions:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC9authorizeXeXeF">authorize(withUserChallenge:forDevice:withOptions:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Authorize a user account for a staff member to make use of point-of-sale hardware, using their response to an auth
+challenge (usually a passcode). The challenge value, which is known by the point-of-sale device and server-side
+system ahead of time, is combined with the user&rsquo;s passcode response, hashed, signed, and provided as the <q>auth
+challenge response,</q> which is validated server-side like a password would be.</p>
+
+<p>This method variant is asynchronous and accepts a callback to continue execution.</p>
+<div class="aside aside-attention">
+    <p class="aside-title">Attention</p>
+    <p>Device activation is required before most operations. Authorization tokens for menu downloads, shop
+operations, and others, are provided by the device activation process.</p>
+
+</div>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p>Synchronous variants of <code>authorize(withUserChallenge:)</code>.</p>
+
+</div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>Client-side errors are thrown before the request is sent.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">authorize</span><span class="p">(</span><span class="n">withUserChallenge</span> <span class="nv">challenge</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox4Hasha">Hash</a></span><span class="p">,</span>
+                      <span class="n">forDevice</span> <span class="nv">device</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                      <span class="n">withOptions</span> <span class="nv">options</span><span class="p">:</span> <span class="kt"><a href="../Structs/POSAuthorizeOptions.html">POSAuthorizeOptions</a></span><span class="p">,</span>
+                      <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox20POSAuthorizeCallbacka">POSAuthorizeCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16POSAuthorizeCalla">POSAuthorizeCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>challenge</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Challenge and response, as a signed digest payload.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device key for the POS device requesting authorization.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Options to apply to the request.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>RPC call object, which can be used to observe state or cancel the call.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Public%20API4"></a>
+                <a name="//apple_ref/swift/Section/Public API" class="dashAnchor"></a>
+                <a href="#/Public%20API4">
+                  <h3 class="section-name">Public API</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC6verifyXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/verify(ticketKey:forDevice:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC6verifyXeXeF">verify(ticketKey:forDevice:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify a candidate string to be a ticket key, synchronously, with server-side systems. Since ticket key UUIDs are
+generate client-side, they must be validated with the server when possible for uniqueness.</p>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p>Asynchronous version: <code>verify(ticketKey:forDevice:withOptions:_ callback)</code>.</p>
+
+</div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>Client-side errors and server-side errors are both thrown.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">verify</span><span class="p">(</span><span class="n">ticketKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PurchaseKeya">PurchaseKey</a></span><span class="p">,</span>
+                   <span class="n">forDevice</span> <span class="nv">device</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox13POSOpenTicketa">POSOpenTicket</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Ticket key to validate with the server. It should not yet exist.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device key referencing the POS device from which we are validating this key.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Ticket verificaton response.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox17PointOfSaleClientC6verifyXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/verify(ticketKey:forDevice:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox17PointOfSaleClientC6verifyXeXeF">verify(ticketKey:forDevice:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify a candidate string to be a ticket key, asynchronously, with server-side systems. Since ticket key UUIDs are
+generate client-side, they must be validated with the server when possible for uniqueness.</p>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <p>Synchronous version: <code>verify(ticketKey:forDevice:withOptions)</code>.</p>
+
+</div>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>Client-side errors only. This method is asynchronous.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">verify</span><span class="p">(</span><span class="n">ticketKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PurchaseKeya">PurchaseKey</a></span><span class="p">,</span>
+                   <span class="n">forDevice</span> <span class="nv">device</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a></span><span class="p">,</span>
+                   <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox26POSVerifyTicketKeyCallbacka">POSVerifyTicketKeyCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox17POSOpenTicketCalla">POSOpenTicketCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Ticket key to validate with the server. It should not yet exist.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device key referencing the POS device from which we are validating this key.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Callable to dispatch once either a terminal error or response are available.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>RPC call object, that can be used to observe status or cancel the call.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016-2018, Momentum Ideas Co.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ShopClient Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ShopClient" class="dashAnchor"></a>
+    <a title="ShopClient Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Bloombox Docs</a> (49% documented)</p>
+        <p class="header-right"><a href="https://github.com/bloombox/swift"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Bloombox Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ShopClient Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Bloombox.html">Bloombox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Bloombox/Settings.html">– Settings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DevicesClient.html">DevicesClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MenuClient.html">MenuClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlatformClient.html">PlatformClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PointOfSaleClient.html">PointOfSaleClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Services.html">Services</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShopClient.html">ShopClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TelemetryClient.html">TelemetryClient</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:8Bloombox20__BLOOMBOX_VARIANT__SSvp">__BLOOMBOX_VARIANT__</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:8Bloombox20__BLOOMBOX_VERSION__SSvp">__BLOOMBOX_VERSION__</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CommercialEvent.html">CommercialEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DevicesClientError.html">DevicesClientError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventCollection.html">EventCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GenericEventError.html">GenericEventError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/IdentityEvent.html">IdentityEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MenuClientError.html">MenuClientError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/POSClientError.html">POSClientError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PlatformClientError.html">PlatformClientError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ShopClientError.html">ShopClientError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/EventContextProto.html">EventContextProto</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/EventContextData.html">EventContextData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IPOSAuthorizeUser.html">IPOSAuthorizeUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RPCService.html">RPCService</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/EventContext.html">EventContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/POSAuthorizeOptions.html">POSAuthorizeOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/POSAuthorizeOptions/MessagingOptions.html">– MessagingOptions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9APIClienta">APIClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19AnalyticsCollectiona">AnalyticsCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16AnalyticsContexta">AnalyticsContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14AnalyticsScopea">AnalyticsScope</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10Apothecarya">Apothecary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14ApothecaryTypea">ApothecaryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18ApplicationContexta">ApplicationContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9AuthTokena">AuthToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12BOGODiscounta">BOGODiscount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13BillOfChargesa">BillOfCharges</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Branda">Brand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10BrandAsseta">BrandAsset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13BrandCallbacka">BrandCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9BrandInfoa">BrandInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13BrandInfoCalla">BrandInfoCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11Cannabinoida">Cannabinoid</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16CannabinoidRatioa">CannabinoidRatio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12Cannabinoidsa">Cannabinoids</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9Cartridgea">Cartridge</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13CartridgeTypea">CartridgeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19CashRegisterSessiona">CashRegisterSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12CheckZipcodea">CheckZipcode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16CheckZipcodeCalla">CheckZipcodeCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20CheckZipcodeCallbacka">CheckZipcodeCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Colora">Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11ColorSchemea">ColorScheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11Compressiona">Compression</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12Contaminantsa">Contaminants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Contenta">Content</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13CurrencyValuea">CurrencyValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18DeviceActivateCalla">DeviceActivateCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox22DeviceActivateCallbacka">DeviceActivateCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16DeviceActivationa">DeviceActivation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17DeviceApplicationa">DeviceApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11DeviceErrora">DeviceError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17DeviceFingerprinta">DeviceFingerprint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15DevicePublicKeya">DevicePublicKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12DeviceSeriala">DeviceSerial</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10DeviceUUIDa">DeviceUUID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11DevicesPinga">DevicesPing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15DevicesPingCalla">DevicesPingCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14DevicesServicea">DevicesService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19DistributionChannela">DistributionChannel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox23DistributionChannelTypea">DistributionChannelType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18DistributionPolicya">DistributionPolicy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10DomainInfoa">DomainInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14DomainInfoCalla">DomainInfoCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18DomainInfoCallbacka">DomainInfoCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox6Ediblea">Edible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10EdibleTypea">EdibleType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Emptya">Empty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12EnrollMembera">EnrollMember</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16EnrollMemberCalla">EnrollMemberCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20EnrollMemberCallbacka">EnrollMemberCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15EnrollmentErrora">EnrollmentError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Eventa">Event</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14EventTelemetrya">EventTelemetry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9EventTypea">EventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Extracta">Extract</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11ExtractTypea">ExtractType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Feelinga">Feeling</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12FiatCurrencya">FiatCurrency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox6Flowera">Flower</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12GenericEventa">GenericEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20GenericEventCallbacka">GenericEventCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8Geneticsa">Genetics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7GetMenua">GetMenu</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11GetMenuCalla">GetMenuCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8GetOrdera">GetOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12GetOrderCalla">GetOrderCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16GetOrderCallbacka">GetOrderCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7GroupIDa">GroupID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox4Growa">Grow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox4Hasha">Hash</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11Healthchecka">Healthcheck</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15HealthcheckCalla">HealthcheckCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19HealthcheckCallbacka">HealthcheckCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13IdentityTokena">IdentityToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19IdentityTokenIssuera">IdentityTokenIssuer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15InventoryAmounta">InventoryAmount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16InventoryBindinga">InventoryBinding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20InventoryCoordinatesa">InventoryCoordinates</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12InventoryKeya">InventoryKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17InventoryLocationa">InventoryLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20InventoryLocationKeya">InventoryLocationKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox21InventoryLocationTypea">InventoryLocationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16InventoryProducta">InventoryProduct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14InventoryStatea">InventoryState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20InventoryStreamEventa">InventoryStreamEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox6ItemIDa">ItemID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11KeyMateriala">KeyMaterial</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13KeyParametersa">KeyParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12KeyingSchemea">KeyingScheme</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Keypaira">Keypair</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8Languagea">Language</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14LibraryContexta">LibraryContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11LocationKeya">LocationKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15LoyaltyDiscounta">LoyaltyDiscount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13MaterialsDataa">MaterialsData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9MediaItema">MediaItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8MediaKeya">MediaKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16MediaOrientationa">MediaOrientation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12MediaPrivacya">MediaPrivacy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14MediaReferencea">MediaReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11MediaStatusa">MediaStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12MediaSubjecta">MediaSubject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9MediaTypea">MediaType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11MediaUploada">MediaUpload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox4Menua">Menu</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11MenuProducta">MenuProduct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20MenuRetrieveCallbacka">MenuRetrieveCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11MenuSectiona">MenuSection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11MenuServicea">MenuService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12MenuSettingsa">MenuSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11Merchandisea">Merchandise</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15MerchandiseTypea">MerchandiseType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13MessagingAutha">MessagingAuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox6Metalsa">Metals</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8Moisturea">Moisture</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10MoldMildewa">MoldMildew</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox4Namea">Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19NativeDeviceContexta">NativeDeviceContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11OpenSessiona">OpenSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15OpenSessionCalla">OpenSessionCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19OpenSessionCallbacka">OpenSessionCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Ordera">Order</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7OrderIDa">OrderID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8OrderKeya">OrderKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17OtherContaminantsa">OtherContaminants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12POSAuthorizea">POSAuthorize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16POSAuthorizeCalla">POSAuthorizeCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20POSAuthorizeCallbacka">POSAuthorizeCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14POSClaimTicketa">POSClaimTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18POSClaimTicketCalla">POSClaimTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14POSCloneTicketa">POSCloneTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18POSCloneTicketCalla">POSCloneTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15POSDeviceStatusa">POSDeviceStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8POSErrora">POSError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17POSFinalizeTicketa">POSFinalizeTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox21POSFinalizeTicketCalla">POSFinalizeTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11POSHardwarea">POSHardware</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17POSInventoryQuerya">POSInventoryQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox21POSInventoryQueryCalla">POSInventoryQueryCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18POSInventoryStreama">POSInventoryStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox22POSInventoryStreamCalla">POSInventoryStreamCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox25POSInventoryStreamSessiona">POSInventoryStreamSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13POSLoadTicketa">POSLoadTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17POSLoadTicketCalla">POSLoadTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15POSMemberSearcha">POSMemberSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19POSMemberSearchCalla">POSMemberSearchCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13POSOpenTicketa">POSOpenTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17POSOpenTicketCalla">POSOpenTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13POSSaveTicketa">POSSaveTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17POSSaveTicketCalla">POSSaveTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12POSSessionIDa">POSSessionID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox26POSVerifyTicketKeyCallbacka">POSVerifyTicketKeyCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13POSVoidTicketa">POSVoidTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17POSVoidTicketCalla">POSVoidTicketCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16PartnerDeviceKeya">PartnerDeviceKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10PartnerKeya">PartnerKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18PartnerLocationKeya">PartnerLocationKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18PercentageDiscounta">PercentageDiscount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10Pesticidesa">Pesticides</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12PingCallbacka">PingCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Planta">Plant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9PlantTypea">PlantType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13PlatformErrora">PlatformError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12PlatformPinga">PlatformPing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16PlatformPingCalla">PlatformPingCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20PlatformPingCallbacka">PlatformPingCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15PlatformServicea">PlatformService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox21PlatformServiceStatusa">PlatformServiceStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18PointOfSaleServicea">PointOfSaleService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16PointOfSaleStatea">PointOfSaleState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15PotencyEstimatea">PotencyEstimate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Prerolla">Preroll</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Pricinga">Pricing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox23PricingTierAvailabilitya">PricingTierAvailability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11PricingTypea">PricingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17PricingWeightTiera">PricingWeightTier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14ProductContenta">ProductContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10ProductKeya">ProductKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11ProductKinda">ProductKind</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14ProductPricinga">ProductPricing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16ProductReferencea">ProductReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17ProductTimestampsa">ProductTimestamps</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14ProductVarianta">ProductVariant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14ProtobufStructa">ProtobufStruct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13ProtobufValuea">ProtobufValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16PurchaseCustomera">PurchaseCustomer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19PurchaseFacilitatora">PurchaseFacilitator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11PurchaseKeya">PurchaseKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14PurchaseStatusa">PurchaseStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14PurchaseTicketa">PurchaseTicket</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18PurchaseTimestampsa">PurchaseTimestamps</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20RegisterSessionTokena">RegisterSessionToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15ResolveCallbacka">ResolveCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14ResolveDomainsa">ResolveDomains</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18ResolveDomainsCalla">ResolveDomainsCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14SaleDescriptora">SaleDescriptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8SaleTypea">SaleType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11SectionDataa">SectionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11SectionSpeca">SectionSpec</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13SectionedMenua">SectionedMenu</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13SessionStatusa">SessionStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12SessionTokena">SessionToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17SessionTokenGranta">SessionTokenGrant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox5Shelfa">Shelf</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8ShopInfoa">ShopInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12ShopInfoCalla">ShopInfoCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16ShopInfoCallbacka">ShopInfoCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8ShopPinga">ShopPing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12ShopPingCalla">ShopPingCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11ShopServicea">ShopService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Speciesa">Species</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9StaffUsera">StaffUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10StaticMenua">StaticMenu</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10Subjectivea">Subjective</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11SubmitOrdera">SubmitOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15SubmitOrderCalla">SubmitOrderCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19SubmitOrderCallbacka">SubmitOrderCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9TasteNotea">TasteNote</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox14TelemetryEventa">TelemetryEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox19TelemetryEventBatcha">TelemetryEventBatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox26TelemetryEventBatchRequesta">TelemetryEventBatchRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18TelemetryEventCalla">TelemetryEventCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox18TelemetryExceptiona">TelemetryException</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13TelemetryPinga">TelemetryPing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17TelemetryPingCalla">TelemetryPingCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox17TelemetryResponsea">TelemetryResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15TemporalInstanta">TemporalInstant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7Terpenea">Terpene</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox8Terpenesa">Terpenes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15TestCoordinatesa">TestCoordinates</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13TestErrorTypea">TestErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9TestMediaa">TestMedia</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13TestMediaTypea">TestMediaType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox10TestMethoda">TestMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11TestResultsa">TestResults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9TestSuitea">TestSuite</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox9TestValuea">TestValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox13TestValueTypea">TestValueType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11UnitPricinga">UnitPricing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox4Usera">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox6UserIDa">UserID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox7UserKeya">UserKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11VariantSpeca">VariantSpec</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11VerifyErrora">VerifyError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox12VerifyMembera">VerifyMember</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox16VerifyMemberCalla">VerifyMemberCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox20VerifyMemberCallbacka">VerifyMemberCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox11VersionSpeca">VersionSpec</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8Bloombox15WeightedPricinga">WeightedPricing</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ShopClient</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ShopClient</span> <span class="p">:</span> <span class="kt">RemoteService</span></code></pre>
+
+                </div>
+              </div>
+            <p>Provides functionality for the Shop API, which supports operations related to pickup or delivery ordering, member
+verification and enrollment, and basic shop operations.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Internals"></a>
+                <a name="//apple_ref/swift/Section/Internals" class="dashAnchor"></a>
+                <a href="#/Internals">
+                  <h3 class="section-name">Internals</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientCAc2AC8SettingsV8settings_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(settings:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientCAc2AC8SettingsV8settings_tcfc">init(settings:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Library-internal initializer.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">settings</span><span class="p">:</span> <span class="kt"><a href="../Classes/Bloombox.html">Bloombox</a></span><span class="o">.</span><span class="kt">Settings</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Shop%20Info"></a>
+                <a name="//apple_ref/swift/Section/Shop Info" class="dashAnchor"></a>
+                <a href="#/Shop%20Info">
+                  <h3 class="section-name">Shop Info</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC4infoAA0a17_Schema_Services_b4_V1_B4InfoV8ResponseVSSSg7partner_AI8locationAI6apiKeytKF"></a>
+                    <a name="//apple_ref/swift/Method/info(partner:location:apiKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC4infoAA0a17_Schema_Services_b4_V1_B4InfoV8ResponseVSSSg7partner_AI8locationAI6apiKeytKF">info(partner:location:apiKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve info about a particular storefront, specifically, its open/closed status, hours, and metadata.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">info</span><span class="p">(</span><span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                 <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                 <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox8ShopInfoa">ShopInfo</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC4infoAA0a17_Schema_Services_b4_V1_bB8InfoCall_pSSSg7partner_AF8locationAF6apiKeyy9SwiftGRPC0I6ResultV_AA0a1_e1_f1_b1_g1_bH0V8ResponseVSgtc8callbacktKF"></a>
+                    <a name="//apple_ref/swift/Method/info(partner:location:apiKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC4infoAA0a17_Schema_Services_b4_V1_bB8InfoCall_pSSSg7partner_AF8locationAF6apiKeyy9SwiftGRPC0I6ResultV_AA0a1_e1_f1_b1_g1_bH0V8ResponseVSgtc8callbacktKF">info(partner:location:apiKey:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve info, asynchronously, about a particular storefront, specifically, its open/closed status, hours, and
+metadata.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">info</span><span class="p">(</span><span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                 <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                 <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                 <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16ShopInfoCallbacka">ShopInfoCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12ShopInfoCalla">ShopInfoCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Check%20Zipcode"></a>
+                <a name="//apple_ref/swift/Section/Check Zipcode" class="dashAnchor"></a>
+                <a href="#/Check%20Zipcode">
+                  <h3 class="section-name">Check Zipcode</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC12checkZipcodeAA0a17_Schema_Services_b9_V1_CheckE0V8ResponseVSS7zipcode_SSSg7partnerAJ6apiKeyAJ8locationtKF"></a>
+                    <a name="//apple_ref/swift/Method/checkZipcode(zipcode:partner:apiKey:location:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC12checkZipcodeAA0a17_Schema_Services_b9_V1_CheckE0V8ResponseVSS7zipcode_SSSg7partnerAJ6apiKeyAJ8locationtKF">checkZipcode(zipcode:partner:apiKey:location:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check a zipcode for delivery eligibility, including any order minimum required, if specified by the server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">checkZipcode</span><span class="p">(</span><span class="nv">zipcode</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                         <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12CheckZipcodea">CheckZipcode</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC12checkZipcodeAA0a17_Schema_Services_b4_V1_b5CheckE4Call_pSS7zipcode_SSSg7partnerAG8locationAG6apiKeyy9SwiftGRPC0J6ResultV_AA0a1_f1_g1_b1_h1_iE0V8ResponseVSgtc8callbacktKF"></a>
+                    <a name="//apple_ref/swift/Method/checkZipcode(zipcode:partner:location:apiKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC12checkZipcodeAA0a17_Schema_Services_b4_V1_b5CheckE4Call_pSS7zipcode_SSSg7partnerAG8locationAG6apiKeyy9SwiftGRPC0J6ResultV_AA0a1_f1_g1_b1_h1_iE0V8ResponseVSgtc8callbacktKF">checkZipcode(zipcode:partner:location:apiKey:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check a zipcode, asynchronously, for delivery eligibility, including any order minimum required, if specified by
+the server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">checkZipcode</span><span class="p">(</span><span class="nv">zipcode</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                         <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox20CheckZipcodeCallbacka">CheckZipcodeCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16CheckZipcodeCalla">CheckZipcodeCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Verify%20Member"></a>
+                <a name="//apple_ref/swift/Section/Verify Member" class="dashAnchor"></a>
+                <a href="#/Verify%20Member">
+                  <h3 class="section-name">Verify Member</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC12verifyMemberAA0a17_Schema_Services_b10_V1_VerifyE0V8ResponseVSS5email_SSSg7partnerAJ8locationAJ6apiKeytKF"></a>
+                    <a name="//apple_ref/swift/Method/verifyMember(email:partner:location:apiKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC12verifyMemberAA0a17_Schema_Services_b10_V1_VerifyE0V8ResponseVSS5email_SSSg7partnerAJ8locationAJ6apiKeytKF">verifyMember(email:partner:location:apiKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify a member account by their email address. <q>Verify</q> in this context checks that they have a valid account,
+membership with the partner/location in question, and have no expired documents, like medical recommendations and
+IDs.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">verifyMember</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                         <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12VerifyMembera">VerifyMember</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC12verifyMemberAA0a17_Schema_Services_b4_V1_b6VerifyE4Call_pSS5email_SSSg7partnerAG8locationAG6apiKeyy9SwiftGRPC0J6ResultV_AA0a1_f1_g1_b1_h1_iE0V8ResponseVSgtc8callbacktKF"></a>
+                    <a name="//apple_ref/swift/Method/verifyMember(email:partner:location:apiKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC12verifyMemberAA0a17_Schema_Services_b4_V1_b6VerifyE4Call_pSS5email_SSSg7partnerAG8locationAG6apiKeyy9SwiftGRPC0J6ResultV_AA0a1_f1_g1_b1_h1_iE0V8ResponseVSgtc8callbacktKF">verifyMember(email:partner:location:apiKey:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify a member account, asynchronously, by their email address. <q>Verify</q> in this context checks that they have a
+valid account, membership with the partner/location in question, and have no expired documents, like medical
+recommendations and IDs.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">verifyMember</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                         <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox20VerifyMemberCallbacka">VerifyMemberCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16VerifyMemberCalla">VerifyMemberCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Enroll%20Member"></a>
+                <a name="//apple_ref/swift/Section/Enroll Member" class="dashAnchor"></a>
+                <a href="#/Enroll%20Member">
+                  <h3 class="section-name">Enroll Member</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC12enrollMemberAA0a17_Schema_Services_b10_V1_EnrollE0V8ResponseVAF7RequestV10enrollment_SSSg6apiKeytKF"></a>
+                    <a name="//apple_ref/swift/Method/enrollMember(enrollment:apiKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC12enrollMemberAA0a17_Schema_Services_b10_V1_EnrollE0V8ResponseVAF7RequestV10enrollment_SSSg6apiKeytKF">enrollMember(enrollment:apiKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enroll a member for a new account, and have them auto-join the enrolling partner location. Under the hood, this
+creates an account, writes it to the partner systems, and then auto-creates a membership.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">enrollMember</span><span class="p">(</span><span class="nv">enrollment</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12EnrollMembera">EnrollMember</a></span><span class="o">.</span><span class="kt">Request</span><span class="p">,</span>
+                         <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12EnrollMembera">EnrollMember</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC12enrollMemberAA0a17_Schema_Services_b4_V1_b6EnrollE4Call_pAA0a1_f1_g1_b1_h1_iE0V7RequestV10enrollment_SSSg6apiKeyy9SwiftGRPC0J6ResultV_AG8ResponseVSgtc8callbacktKF"></a>
+                    <a name="//apple_ref/swift/Method/enrollMember(enrollment:apiKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC12enrollMemberAA0a17_Schema_Services_b4_V1_b6EnrollE4Call_pAA0a1_f1_g1_b1_h1_iE0V7RequestV10enrollment_SSSg6apiKeyy9SwiftGRPC0J6ResultV_AG8ResponseVSgtc8callbacktKF">enrollMember(enrollment:apiKey:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enroll a member for a new account, asynchronously, and have them auto-join the enrolling partner location. Under
+the hood, this creates an account, writes it to the partner systems, and then auto-creates a membership.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">enrollMember</span><span class="p">(</span><span class="nv">enrollment</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12EnrollMembera">EnrollMember</a></span><span class="o">.</span><span class="kt">Request</span><span class="p">,</span>
+                         <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox20EnrollMemberCallbacka">EnrollMemberCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16EnrollMemberCalla">EnrollMemberCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Get%20Order"></a>
+                <a name="//apple_ref/swift/Section/Get Order" class="dashAnchor"></a>
+                <a href="#/Get%20Order">
+                  <h3 class="section-name">Get Order</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC8getOrderAA0a17_Schema_Services_b7_V1_GetE0V8ResponseVSS2id_SSSg7partnerAJ8locationAJ6apiKeytKF"></a>
+                    <a name="//apple_ref/swift/Method/getOrder(id:partner:location:apiKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC8getOrderAA0a17_Schema_Services_b7_V1_GetE0V8ResponseVSS2id_SSSg7partnerAJ8locationAJ6apiKeytKF">getOrder(id:partner:location:apiKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve information about a previously-submitted pickup or delivery order. Includes status information and an
+action log.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getOrder</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox7OrderIDa">OrderID</a></span><span class="p">,</span>
+                     <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox8GetOrdera">GetOrder</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC8getOrderAA0a17_Schema_Services_b4_V1_b3GetE4Call_pSS2id_SSSg7partnerAG8locationAG6apiKeyy9SwiftGRPC0J6ResultV_AA0a1_f1_g1_b1_h1_iE0V8ResponseVSgtc8callbacktKF"></a>
+                    <a name="//apple_ref/swift/Method/getOrder(id:partner:location:apiKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC8getOrderAA0a17_Schema_Services_b4_V1_b3GetE4Call_pSS2id_SSSg7partnerAG8locationAG6apiKeyy9SwiftGRPC0J6ResultV_AA0a1_f1_g1_b1_h1_iE0V8ResponseVSgtc8callbacktKF">getOrder(id:partner:location:apiKey:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve information, asynchronously, about a previously-submitted pickup or delivery order. Includes status
+information and an action log.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getOrder</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox7OrderIDa">OrderID</a></span><span class="p">,</span>
+                     <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16GetOrderCallbacka">GetOrderCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12GetOrderCalla">GetOrderCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Submit%20Order"></a>
+                <a name="//apple_ref/swift/Section/Submit Order" class="dashAnchor"></a>
+                <a href="#/Submit%20Order">
+                  <h3 class="section-name">Submit Order</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC11submitOrderAA0a17_Schema_Services_b10_V1_SubmitE0V8ResponseVAA022Opencannabis_Commerce_E0V5order_SSSg0M2IDAL7partnerAL8locationAL6apiKeytKF"></a>
+                    <a name="//apple_ref/swift/Method/submitOrder(order:orderID:partner:location:apiKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC11submitOrderAA0a17_Schema_Services_b10_V1_SubmitE0V8ResponseVAA022Opencannabis_Commerce_E0V5order_SSSg0M2IDAL7partnerAL8locationAL6apiKeytKF">submitOrder(order:orderID:partner:location:apiKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Submit a new order for pickup or delivery. Requires an existing member account, acquireable via <code>enrollMember</code>,
+and valid item keys for each item desired as part of the order.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">submitOrder</span><span class="p">(</span><span class="nv">order</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox5Ordera">Order</a></span><span class="p">,</span>
+                        <span class="n">orderID</span> <span class="nv">id</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox7OrderIDa">OrderID</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11SubmitOrdera">SubmitOrder</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC11submitOrderAA0a17_Schema_Services_b4_V1_b6SubmitE4Call_pAA022Opencannabis_Commerce_E0V5order_SSSg0M2IDAI7partnerAI8locationAI6apiKeyy9SwiftGRPC0J6ResultV_AA0a1_f1_g1_b1_h1_iE0V8ResponseVSgtc8callbacktKF"></a>
+                    <a name="//apple_ref/swift/Method/submitOrder(order:orderID:partner:location:apiKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC11submitOrderAA0a17_Schema_Services_b4_V1_b6SubmitE4Call_pAA022Opencannabis_Commerce_E0V5order_SSSg0M2IDAI7partnerAI8locationAI6apiKeyy9SwiftGRPC0J6ResultV_AA0a1_f1_g1_b1_h1_iE0V8ResponseVSgtc8callbacktKF">submitOrder(order:orderID:partner:location:apiKey:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Submit a new order, asynchronously, for pickup or delivery. Requires an existing member account, acquireable via
+<code>enrollMember</code>, and valid item keys for each item desired as part of the order.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">submitOrder</span><span class="p">(</span><span class="nv">order</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox5Ordera">Order</a></span><span class="p">,</span>
+                        <span class="n">orderID</span> <span class="nv">id</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox7OrderIDa">OrderID</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox19SubmitOrderCallbacka">SubmitOrderCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox15SubmitOrderCalla">SubmitOrderCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Shop%20Info2"></a>
+                <a name="//apple_ref/swift/Section/Shop Info" class="dashAnchor"></a>
+                <a href="#/Shop%20Info2">
+                  <h3 class="section-name">Shop Info</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC4infoXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/info(partner:location:apiKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC4infoXeXeF">info(partner:location:apiKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve info about a particular storefront, specifically, its open/closed status, hours, and metadata.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">info</span><span class="p">(</span><span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                 <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                 <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox8ShopInfoa">ShopInfo</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC4infoXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/info(partner:location:apiKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC4infoXeXeF">info(partner:location:apiKey:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve info, asynchronously, about a particular storefront, specifically, its open/closed status, hours, and
+metadata.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">info</span><span class="p">(</span><span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                 <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                 <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                 <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16ShopInfoCallbacka">ShopInfoCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12ShopInfoCalla">ShopInfoCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Check%20Zipcode2"></a>
+                <a name="//apple_ref/swift/Section/Check Zipcode" class="dashAnchor"></a>
+                <a href="#/Check%20Zipcode2">
+                  <h3 class="section-name">Check Zipcode</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC12checkZipcodeXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/checkZipcode(zipcode:partner:apiKey:location:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC12checkZipcodeXeXeF">checkZipcode(zipcode:partner:apiKey:location:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check a zipcode for delivery eligibility, including any order minimum required, if specified by the server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">checkZipcode</span><span class="p">(</span><span class="nv">zipcode</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                         <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12CheckZipcodea">CheckZipcode</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC12checkZipcodeXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/checkZipcode(zipcode:partner:location:apiKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC12checkZipcodeXeXeF">checkZipcode(zipcode:partner:location:apiKey:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check a zipcode, asynchronously, for delivery eligibility, including any order minimum required, if specified by
+the server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">checkZipcode</span><span class="p">(</span><span class="nv">zipcode</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                         <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox20CheckZipcodeCallbacka">CheckZipcodeCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16CheckZipcodeCalla">CheckZipcodeCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Verify%20Member2"></a>
+                <a name="//apple_ref/swift/Section/Verify Member" class="dashAnchor"></a>
+                <a href="#/Verify%20Member2">
+                  <h3 class="section-name">Verify Member</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC12verifyMemberXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/verifyMember(email:partner:location:apiKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC12verifyMemberXeXeF">verifyMember(email:partner:location:apiKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify a member account by their email address. <q>Verify</q> in this context checks that they have a valid account,
+membership with the partner/location in question, and have no expired documents, like medical recommendations and
+IDs.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">verifyMember</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                         <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12VerifyMembera">VerifyMember</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC12verifyMemberXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/verifyMember(email:partner:location:apiKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC12verifyMemberXeXeF">verifyMember(email:partner:location:apiKey:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify a member account, asynchronously, by their email address. <q>Verify</q> in this context checks that they have a
+valid account, membership with the partner/location in question, and have no expired documents, like medical
+recommendations and IDs.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">verifyMember</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                         <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox20VerifyMemberCallbacka">VerifyMemberCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16VerifyMemberCalla">VerifyMemberCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Enroll%20Member2"></a>
+                <a name="//apple_ref/swift/Section/Enroll Member" class="dashAnchor"></a>
+                <a href="#/Enroll%20Member2">
+                  <h3 class="section-name">Enroll Member</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC12enrollMemberXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/enrollMember(enrollment:apiKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC12enrollMemberXeXeF">enrollMember(enrollment:apiKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enroll a member for a new account, and have them auto-join the enrolling partner location. Under the hood, this
+creates an account, writes it to the partner systems, and then auto-creates a membership.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">enrollMember</span><span class="p">(</span><span class="nv">enrollment</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12EnrollMembera">EnrollMember</a></span><span class="o">.</span><span class="kt">Request</span><span class="p">,</span>
+                         <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12EnrollMembera">EnrollMember</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC12enrollMemberXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/enrollMember(enrollment:apiKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC12enrollMemberXeXeF">enrollMember(enrollment:apiKey:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enroll a member for a new account, asynchronously, and have them auto-join the enrolling partner location. Under
+the hood, this creates an account, writes it to the partner systems, and then auto-creates a membership.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">enrollMember</span><span class="p">(</span><span class="nv">enrollment</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12EnrollMembera">EnrollMember</a></span><span class="o">.</span><span class="kt">Request</span><span class="p">,</span>
+                         <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox20EnrollMemberCallbacka">EnrollMemberCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16EnrollMemberCalla">EnrollMemberCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Get%20Order2"></a>
+                <a name="//apple_ref/swift/Section/Get Order" class="dashAnchor"></a>
+                <a href="#/Get%20Order2">
+                  <h3 class="section-name">Get Order</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC8getOrderXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/getOrder(id:partner:location:apiKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC8getOrderXeXeF">getOrder(id:partner:location:apiKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve information about a previously-submitted pickup or delivery order. Includes status information and an
+action log.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getOrder</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox7OrderIDa">OrderID</a></span><span class="p">,</span>
+                     <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox8GetOrdera">GetOrder</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC8getOrderXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/getOrder(id:partner:location:apiKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC8getOrderXeXeF">getOrder(id:partner:location:apiKey:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve information, asynchronously, about a previously-submitted pickup or delivery order. Includes status
+information and an action log.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getOrder</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox7OrderIDa">OrderID</a></span><span class="p">,</span>
+                     <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox16GetOrderCallbacka">GetOrderCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12GetOrderCalla">GetOrderCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Submit%20Order2"></a>
+                <a name="//apple_ref/swift/Section/Submit Order" class="dashAnchor"></a>
+                <a href="#/Submit%20Order2">
+                  <h3 class="section-name">Submit Order</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC11submitOrderXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/submitOrder(order:orderID:partner:location:apiKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC11submitOrderXeXeF">submitOrder(order:orderID:partner:location:apiKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Submit a new order for pickup or delivery. Requires an existing member account, acquireable via <code>enrollMember</code>,
+and valid item keys for each item desired as part of the order.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">submitOrder</span><span class="p">(</span><span class="nv">order</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox5Ordera">Order</a></span><span class="p">,</span>
+                        <span class="n">orderID</span> <span class="nv">id</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox7OrderIDa">OrderID</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11SubmitOrdera">SubmitOrder</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Bloombox10ShopClientC11submitOrderXeXeF"></a>
+                    <a name="//apple_ref/swift/Method/submitOrder(order:orderID:partner:location:apiKey:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Bloombox10ShopClientC11submitOrderXeXeF">submitOrder(order:orderID:partner:location:apiKey:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Submit a new order, asynchronously, for pickup or delivery. Requires an existing member account, acquireable via
+<code>enrollMember</code>, and valid item keys for each item desired as part of the order.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">submitOrder</span><span class="p">(</span><span class="nv">order</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox5Ordera">Order</a></span><span class="p">,</span>
+                        <span class="n">orderID</span> <span class="nv">id</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox7OrderIDa">OrderID</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">partner</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox11PartnerCodea">PartnerCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">location</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox12LocationCodea">LocationCode</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">apiKey</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox6APIKeya">APIKey</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox19SubmitOrderCallbacka">SubmitOrderCallback</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:8Bloombox15SubmitOrderCalla">SubmitOrderCall</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016-2018, Momentum Ideas Co.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
